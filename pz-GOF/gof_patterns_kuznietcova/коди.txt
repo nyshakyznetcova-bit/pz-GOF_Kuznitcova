@@ -1,0 +1,168 @@
+📄 main.py
+from creational.factory import run as factory_run
+from creational.singleton import run as singleton_run
+from structural.adapter import run as adapter_run
+from structural.decorator import run as decorator_run
+from behavioral.strategy import run as strategy_run
+from behavioral.observer import run as observer_run
+
+print("=== ВІТІ | гр.3201 | Кузнєцова Т.Ю. ===\n")
+
+factory_run()
+singleton_run()
+adapter_run()
+decorator_run()
+strategy_run()
+observer_run()
+
+input("\nPress Enter to exit...")
+
+
+
+🏭 creational/factory.py
+class Admin:
+    def role(self):
+        return "Admin access (Кузнєцова ВІТІ 3201)"
+
+class Guest:
+    def role(self):
+        return "Guest access"
+
+class UserFactory:
+    @staticmethod
+    def create(user_type):
+        if user_type == "admin":
+            return Admin()
+        return Guest()
+
+def run():
+    user = UserFactory.create("admin")
+    print("Factory:", user.role())
+
+if __name__ == "__main__":
+    run()
+
+
+
+🧾 creational/singleton.py
+class Logger:
+    _instance = None
+
+    def __new__(cls):
+        if not cls._instance:
+            cls._instance = super().__new__(cls)
+            cls._instance.logs = []
+        return cls._instance
+
+    def log(self, msg):
+        self.logs.append(msg)
+
+def run():
+    a = Logger()
+    b = Logger()
+
+    a.log("System started")
+
+    print("Singleton logs:", a.logs)
+    print("Same instance:", a is b)
+
+if __name__ == "__main__":
+    run()
+
+
+🔌 structural/adapter.py
+class OldSystem:
+    def old_request(self):
+        return "OLD SYSTEM"
+
+class Adapter:
+    def __init__(self, old_system):
+        self.old_system = old_system
+
+    def new_request(self):
+        return self.old_system.old_request()
+
+def run():
+    adapter = Adapter(OldSystem())
+    print("Adapter:", adapter.new_request())
+
+if __name__ == "__main__":
+    run()
+
+
+
+🎁 structural/decorator.py
+class Order:
+    def cost(self):
+        return 100
+
+class DiscountDecorator:
+    def __init__(self, order):
+        self.order = order
+
+    def cost(self):
+        return self.order.cost() * 0.8
+
+def run():
+    order = Order()
+    discounted = DiscountDecorator(order)
+
+    print("Decorator cost:", discounted.cost())
+
+if __name__ == "__main__":
+    run()
+
+
+
+💳 behavioral/strategy.py
+class CardPayment:
+    def pay(self, amount):
+        return f"Card payment {amount}"
+
+class CashPayment:
+    def pay(self, amount):
+        return f"Cash payment {amount}"
+
+class Context:
+    def __init__(self, strategy):
+        self.strategy = strategy
+
+    def execute(self, amount):
+        return self.strategy.pay(amount)
+
+def run():
+    c = Context(CardPayment())
+    print("Strategy:", c.execute(200))
+
+    c.strategy = CashPayment()
+    print("Strategy:", c.execute(200))
+
+if __name__ == "__main__":
+    run()
+
+
+
+🔔 behavioral/observer.py
+class Subscriber:
+    def update(self, msg):
+        print("[ВІТІ | гр.3201] Notification:", msg)
+
+class News:
+    def __init__(self):
+        self.subs = []
+
+    def add(self, sub):
+        self.subs.append(sub)
+
+    def notify(self, msg):
+        for s in self.subs:
+            s.update(msg)
+
+def run():
+    news = News()
+    news.add(Subscriber())
+
+    news.notify("System update by Кuznietcova T.Y.")
+
+if __name__ == "__main__":
+    run()

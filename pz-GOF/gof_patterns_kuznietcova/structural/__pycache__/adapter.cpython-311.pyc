@@ -1,0 +1,18 @@
+§
+    ç^ìiZ  ã                   ó@   —  G d „ d¦  «        Z  G d„ d¦  «        Zd„ ZdS )c                   ó   — e Zd Zd„ ZdS )Ú	OldSystemc                 ó   — dS )Nu   Old system (Ğ’Ğ†Ğ¢Ğ† 3201)© ©Úselfs    úGC:\Users\Admin\Desktop\pz-GOF\gof_patterns_êuznietcova\structural\adapter.pyÚ requestzOldSystem.request   s   € Ø+Ğ+ó    N)Ú__name__Ú
+__module__Ú__qualname__r	   r   r
+   r   r   r      s#   € € € € € ğ,ğ ,ğ ,ğ ,ğ ,r
+   r   c                   ó   — e Zd Zd„ Zd„ ZdS )Ú Adapterc                 ó   — || _         d S )N)Úold)r    r   s     r   Ú__init__zAdapter.__init__    s
+   € ØˆŒˆˆr
+   c                 ó:   — d| j                              ¦   «         z   S )Nu   Adapter â†’ )r   r	   r   s    r   r	   zAdapter.request
+   s   € Ø ¤× 0Ò 0Ñ 2Ô 2Ñ2Ğ2r
+   N)r
+   r   r
+   r   r	   r   r
+   r   r   r      s2   € € € € € ğğ ğ ğ3ğ 3ğ 3ğ 3ğ 3r
+   r   c                  ó„   — t          ¦   «         } t          | ¦  «        }t          d|                     ¦   «         ¦  «         d S )NzAdapter:)r   r   Úprintr	   )r   Ú adapteds     r   Úrunr      s6   € İ
+‰+Œ+€Cİc‰lŒl€Gİ	ˆ*g—o’oÑ'Ô'Ñ(Ô(Ğ(Ğ(Ğ(r
+   N)r   r   r   r   r
+   r   ú<module>r      sn   ğğ,ğ ,ğ ,ğ ,ğ ,ñ ,ô ,ğ ,ğ
+3ğ 3ğ 3ğ 3ğ 3ñ 3ô 3ğ 3ğ)ğ )ğ )ğ )ğ )r
+   

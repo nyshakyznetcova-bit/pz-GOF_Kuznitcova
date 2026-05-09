@@ -1,0 +1,58 @@
+з
+    Xвьib  у                   є╝   Ч  G d Д dж  л        Z  G dД de ж  л        Z G dД de ж  л        Z G dД d ж  л        ZdД Z G d	Д d
+ж  л        Zd
+Д Zedk    r eж   л          d
+S d
+S )c                   є   Ч e Zd ZdД ZdS )┌Userc                 є   Ч d S )Nй й┌selfs    ·GC:\Users\Admin\Desktop\pz-GOF\gof_patterns_kuznietcova\creational\factory.py┌rolez	User.role   s    А ╪Иє    Nй┌__name__┌
+__module__┌__qualname__r	   r   r
+   r   r   r      s#   А А А А А Ё
+Ё 
+Ё 
+Ё 
+Ё 
+r
+   r   c                   є   Ч e Zd ZdД ZdS )┌Adminc                 є   Ч dS )Nu2   Admin (╨Т╨Ж╨в╨Ж | ╨Ф╤Г╨▒╤А╨╛╨▓ ╨а.╨Ю. | ╨│╤А.3201)r   r   s    r   r	   z
+Admin.role    s   А ╪C╨Cr
+   Nr
+   r   r
+   r   r   r      s(   А А А А А ЁDЁ DЁ DЁ DЁ Dr
+   r   c                   є   Ч e Zd ZdД ZdS )┌Guestc                 є   Ч dS )Nu   Guest (╨Т╨Ж╨в╨Ж | ╨│╤А.3201)r   r   s    r   r	   z
+Guest.role   s   А ╪-╨-r
+   Nr
+   r   r
+   r   r   r   
+   s#   А А А А А Ё.Ё .Ё .Ё .Ё .r
+   r   c                   є$   Ч e Zd ZedД ж   л         ZdS )┌
+UserFactoryc                 єF   Ч | dk    rt          ж   л         S t          ж   л         S )N┌admin)r   r   )┌	user_types    r   ┌createzUserFactory.create   s   А р
+Ш ╥
+╨
+▌С7Ф7ИN▌ЙwМwИr
+   N)r   r
+   r   ┌staticmethodr   r   r
+   r   r   r      s-   А А А А А ╪ЁЁ ё Д\ЁЁ Ё r
+   r   c                  є~   Ч t           а                    dж  л        } t          d| а                    ж   л         ж  л         d S )Nr   zFactory:)r   r   ┌printr	   )┌users    r   ┌runr      s3   А ▌
+╫
+╥
+Шg╤
+&╘
+&АD▌	И*РdЧiТiСkФk╤"╘"╨"╨"╨"r
+   c                   є   Ч e Zd ZdS )┌TestN)r   r
+   r   r   r
+   r   r!   r!      s   А А А А А ╪АDr
+   r!   c                  є$   Ч t          dж  л         d S )NzFACTORY WORKS!!!)r   r   r
+   r   r   r      s   А ▌	╨
+╤╘╨╨╨r
+   ┌__main__N) r   r   r   r   r   r!   r   r   r
+   r   ·<module>r$      s  ЁЁ
+Ё 
+Ё 
+Ё 
+Ё 
+ё 
+Ї 
+Ё 
+Ё
+DЁ DЁ DЁ DЁ DИDё DЇ DЁ DЁ
+.Ё .Ё .Ё .Ё .ИDё .Ї .Ё .Ё
+Ё Ё Ё Ё ё Ї Ё Ё#Ё #Ё #Ё	Ё 	Ё 	Ё 	Ё 	ё 	Ї 	Ё 	ЁЁ Ё Ё Иz╥╨╪ АCБEДEАEАEАEЁ ╨r
+   

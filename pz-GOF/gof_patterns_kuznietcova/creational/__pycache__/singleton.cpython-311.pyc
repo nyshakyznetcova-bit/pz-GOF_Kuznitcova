@@ -1,0 +1,18 @@
+§
+    Ð^ìi_  ã                   ó&   —  G d „ d¦  «        Z d„ ZdS )c                   ó.   ‡ — e Zd ZdZˆ fd„Zd„ Zd„ Zˆ xZ S )ÚLoggerNc                 óœ   •— | j         s>t          ¦   «                              | ¦  «        | _         d| j         _        g | j         _        | j         S )Nu*   Ð”ÑƒÐ±Ñ€Ð¾Ð² Ð .Ðž. | Ð’Ð†Ð¢Ð† | Ð³Ñ€.3201)Ú	_instanceÚsuperÚ __new__ÚownerÚlogs)ÚclsÚ	__class__s    €úIC:\Users\Admin\Desktop\pz-GOF\gof_patterns_kuznietcova\creational\singleton.pyr    zLogger.__new__   s@   ø€ ØŒ}ð 	$Ý!™GœGŸOšO¨CÑ0Ô0ˆCŒMØ"NˆCŒMÔØ!#ˆCŒMÔØŒ}Ðó    c                 óP   — | j                              d| j        › d|› ¦  «         d S )Nú[z] )r	   Úappendr   )ÚselfÚmsgs     r   Úlogz
+Logger.log
+   s1   € ØŒ	×ÒÐ0˜TœZÐ0Ð0¨3Ð0Ð0Ñ1Ô1Ð1Ð1Ð1r
+   c                 ó   — | j         S )N)r	   )r   s    r   Úshowz
+Logger.show   s
+   € ØŒyÐr
+   )Ú__name__Ú
+__module__Ú__qualname__r   r    r   r   Ú
+__classcell__)r
+   s   @r   r   r      s[   ø€ € € € € Ø€Iðð ð ð ð ð2ð 2ð 2ðð ð ð ð ð ð r
+   r   c                  óú   — t          ¦   «         } t          ¦   «         }|                      d¦  «         |                     d¦  «         t          d|                      ¦   «         ¦  «         t          d| |u ¦  «         d S )NzSystem startz
+User loginzSingleton logs:zSame instance:)r   r   Úprintr   )Úl1Úl2s     r   Úrunr      sl   € Ý	‰Œ€BÝ	‰Œ€Bà‡F‚Fˆ>ÑÔÐØ‡F‚Fˆ<ÑÔÐå	Ð
+˜RŸWšW™YœYÑ'Ô'Ð'Ý	Ð
+˜B "˜HÑ%Ô%Ð%Ð%Ð%r
+   N)r   r   © r
+   r   ú<module>r       sF   ððð ð ð ð ñ ô ð ð"&ð &ð &ð &ð &r
+   

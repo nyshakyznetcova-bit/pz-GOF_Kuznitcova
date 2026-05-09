@@ -1,0 +1,29 @@
+📦 1. Перехід і створення проєкту
+cd %USERPROFILE%\Desktop
+mkdir gof_patterns_kuznietсova
+cd gof_patterns_kuznietсova
+mkdir creational structural behavioral
+📁 2. Створення Python-модулів
+type nul > creational\__init__.py
+type nul > structural\__init__.py
+type nul > behavioral\__init__.py
+📄 3. Створення файлів (через VS Code / Notepad)
+notepad main.py
+notepad creational\factory.py
+notepad creational\singleton.py
+notepad structural\adapter.py
+notepad structural\decorator.py
+notepad behavioral\strategy.py
+notepad behavioral\observer.py
+▶ 4. Запуск окремих файлів
+python behavioral\observer.py
+python behavioral\strategy.py
+python creational\factory.py
+🚀 5. Запуск всього проєкту
+cd %USERPROFILE%\Desktop\gof_patterns_kuznietсova
+python main.py
+📦 6. Перевірка структури
+dir
+dir creational
+dir structural
+dir behavioral

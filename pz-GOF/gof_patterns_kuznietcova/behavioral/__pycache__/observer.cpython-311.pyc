@@ -1,0 +1,26 @@
+§
+    ù£ìi×  ã                   ód   —  G d „ d¦  «        Z  G d„ d¦  «        Zd„ Zedk    r e¦   «          dS dS ) c                   ó   — e Zd Zd„ ZdS )Ú
+Subscriberc                 ó&   — t          d|¦  «         d S )Nu$   [Ð’Ð†Ð¢Ð† | Ð³Ñ€.3201] Notification:)Úprint)ÚselfÚmsgs     úHC:\Users\Admin\Desktop\pz-GOF\gof_patterns_kuznietñova\behavioral\observer.pyÚupdatezSubscriber.update   s   € Ý
+Ð5°sÑ;Ô;Ð;Ð;Ð;ó    N)Ú__name__Ú
+__module__Ú__qualname__r	   © r
+   r   r   r      s#   € € € € € ð<ð <ð <ð <ð <r
+   r   c                   ó    — e Zd Zd„ Zd„ Zd„ ZdS )ÚNewsc                 ó   — g | _         d S ©N)Úsubs)r   s    r   Ú__init__z
+News.__init__    s
+   € ØˆŒ	ˆ	ˆ	r
+   c                 ó:   — | j                              |¦  «         d S r   )r   Úappend)r   Úss     r   ÚaddzNews.add
+   s   € ØŒ	×Ò˜ÑÔÐÐÐr
+   c                 óD   — | j         D ]}|                     |¦  «         Œd S r   )r   r	   )r   r    r   s      r   Únotifyz
+News.notify
+   s.   € Ø”ð 	ð 	ˆAØ
+HŠHS‰MŒMˆMˆMð	ð 	r
+   N)r
+   r   r
+   r   r   r   r   r
+   r   r   r      sA   € € € € € ðð ð ðð ð ðð ð ð ð r
+   r   c                  óŽ   — t          ¦   «         } |                      t          ¦   «         ¦  «         |                      d¦  «         d S )NzSystem update by Kuznietñova T.Y.)r   r   r   r   )Únewss    r   Úrunr      s:   € Ý
+‰6Œ6€DØ‡H‚HZ‰\Œ\ÑÔÐà‡K‚KÐ.Ñ/Ô/Ð/Ð/Ð/r
+   Ú__main__N)r   r   r   r
+   r   r
+   r   ú<module>r      sˆ   ðð<ð <ð <ð <ð <ñ <ô <ð <ð
+	ð 	ð 	ð 	ð 	ñ 	ô 	ð 	ð0ð 0ð 0ð ˆzÒÐØ €CE„E€E€E€Eð Ðr
+   

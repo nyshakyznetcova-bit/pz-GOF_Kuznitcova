@@ -1,0 +1,35 @@
+§
+    
+ªìiO  ã                   ó~   —  G d „ d¦  «        Z  G d„ d¦  «        Z G d„ d¦  «        Zd„ Zed k    r e¦   «          dS dS )	c                   ó   — e Zd Zd„ ZdS )Ú
+CardPaymentc                 ó   — d|› dS )Nz
+Card payment u    (Ğ”ÑƒĞ±Ñ€Ğ¾Ğ² Ğ’Ğ†Ğ¢Ğ† 3201)© ©ÚselfÚamounts     úHC:\Users\Admin\Desktop\pz-GOF\gof_patterns_kuznietñova\behavioral\strategy.pyÚpayzCardPayment.pay   s   € ØD˜vĞDĞDĞDĞDó    N©Ú__name__Ú
+__module__Ú__qualname__r
+   r   r
+   r	   r   r      s(   € € € € € ğEğ Eğ Eğ Eğ Er
+   r   c                   ó   — e Zd Zd„ ZdS )Ú
+CashPaymentc                 ó   — d|› dS )Nz
+Cash payment u    (Ğ³Ñ€.3201)r   r   s     r	   r
+   zCashPayment.pay    s   € Ø3˜vĞ3Ğ3Ğ3Ğ3r
+   Nr   r   r
+   r	   r   r      s#   € € € € € ğ4ğ 4ğ 4ğ 4ğ 4r
+   r   c                   ó   — e Zd Zd„ Zd„ ZdS )Ú Contextc                 ó   — || _         d S ©N)Ústrategy)r    r   s     r	   Ú__init__zContext.__init__   s
+   € Ø ˆŒ
+ˆ
+ˆ
+r
+   c                 ó6   — | j                              |¦  «        S r   )r   r
+   r   s     r	   Ú executezContext.execute   s   € ØŒ}× Ò  Ñ(Ô(Ğ(r
+   N)r
+   r   r   r   r   r   r
+   r	   r   r   
+   s2   € € € € € ğ!ğ !ğ !ğ)ğ )ğ )ğ )ğ )r
+   r   c                  óî   — t          t          ¦   «         ¦  «        } t          d|                      d¦  «        ¦  «         t	          ¦   «         | _        t          d|                      d¦  «        ¦  «         d S )Nz	Strategy:éÈ   )r   r   Úprintr   r   r   )Úcs    r	   Úrunr      sX   € İ•
+‘
+”
+ÑÔ€Aİ	ˆ+q—y’y ‘~”~Ñ&Ô&Ğ&å‘”€A„Jİ	ˆ+q—y’y ‘~”~Ñ&Ô&Ğ&Ğ&Ğ&r
+   Ú__main__N)r   r   r   r   r
+   r   r
+   r	   ú<module>r!      s¸   ğğEğ Eğ Eğ Eğ Eñ Eô Eğ Eğ
+4ğ 4ğ 4ğ 4ğ 4ñ 4ô 4ğ 4ğ
+)ğ )ğ )ğ )ğ )ñ )ô )ğ )ğ'ğ 'ğ 'ğ ˆzÒĞØ €CE„E€E€E€Eğ Ğr
+   
